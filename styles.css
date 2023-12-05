@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #006975; /* Paars */
+    background-color: #006975;  
     
 }
 
 
 header {
-    background: rgb(28, 154, 169); /* Oranje */;
+    background: rgb(28, 154, 169);
     color: black;
     text-align: center;
     padding: 1em;
@@ -34,6 +34,7 @@ nav li {
 }
 
 nav a {
+    font-size: 25px;
     text-decoration: none;
     color: black;
 }
@@ -60,7 +61,7 @@ main {
 }
 
 footer {
-    background: #53929A;
+    background:rgb(28, 154, 169);
     color:black;
     text-align: center;
     padding: 1em;
@@ -82,16 +83,41 @@ footer {
     
 }
 
-
-
-/* ... (andere CSS-regels blijven hetzelfde) */
-
 .imgright {
-    float: left; /* Veranderd van 'right' naar 'left' */
-    margin-right: 20px; /* Optioneel: voeg wat marge toe aan de rechterkant van de afbeelding */
+    float: left; 
+    margin-right: 20px; 
 }
 
 .imgright {
     float: right; 
-    margin-right: 10px; 
+    margin-right: auto; 
+}
+
+.div {
+    margin-top: 10%; /* alle div regels beginnen van hier (er is alleen maar en div regel) */
+    margin-bottom: 10%; 
+    margin-left: 10px;
+}
+
+.div ul {
+    list-style-type: none;
+}
+
+.div li {
+    font-size: 30px;
+    margin-top: 10%; 
+    margin-left: 30px;
+    color: black;
+}
+
+
+.text ul {
+    list-style-type: none;
+}
+
+.text li {
+    font-size: 35px;
+    margin-top: 10%; 
+    margin-left: 30px;
+    color: black;
 }
