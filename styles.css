@@ -2,10 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #006975;  
-    
+    background-color: #006975;
 }
-
 
 header {
     background: rgb(28, 154, 169);
@@ -17,7 +15,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background:  rgb(28, 154, 169);
+    background: rgb(28, 154, 169);
     color: black;
     padding: 1em;
 }
@@ -61,14 +59,37 @@ main {
 }
 
 footer {
-    background:rgb(28, 154, 169);
-    color:black;
+    background: rgb(28, 154, 169);
+    color: black;
     text-align: center;
     padding: 1em;
-    margin: 0; 
-    position: relative; 
+    margin: 0;
+    position: relative;
     width: 98%;
-    clear: both; 
+    clear: both;
+}
+
+.right-div {
+    width: 50%;
+    height: 10%;
+    background-color: rgb(75, 196, 232);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.right-div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-div li {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 40px; /* Voeg afstand tussen de woorden toe */
+    color: black;
+    display: inline;
 }
 
 #welk {
@@ -122,11 +143,12 @@ footer {
     color: black;
 }
 
-
-
-
 .par {
     font-size: 30px;
     margin-top: 10%; 
     margin-left: 40px;
+}
+#display-gebied img {
+    width: 300px; /* Pas deze waarde aan naar de gewenste breedte */
+    height: 560px; /* Pas deze waarde aan naar de gewenste hoogte */
 }
