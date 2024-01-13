@@ -149,6 +149,10 @@ footer {
     margin-left: 40px;
 }
 #display-gebied img {
-    width: 300px; /* Pas deze waarde aan naar de gewenste breedte */
-    height: 560px; /* Pas deze waarde aan naar de gewenste hoogte */
+    width: 300px; 
+    height: 560px; 
 }
+
+#display-gebied {
+    font-size: 20px;
+}   
